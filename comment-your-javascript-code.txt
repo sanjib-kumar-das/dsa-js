@@ -1,3 +1,0 @@
-// commenting code process 1
-
-/* commenting code process 2 */
