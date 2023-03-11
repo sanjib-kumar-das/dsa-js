@@ -1,6 +1,6 @@
 let myVar = 5;
 
-myVar++;
+myVar += 2;
 console.log(myVar)
-myVar--;
-console.log(myVar)
+// myVar--;
+// console.log(myVar)
