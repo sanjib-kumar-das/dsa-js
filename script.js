@@ -1,10 +1,6 @@
-// Setup
-const myArr = [2, 3, 4, 5, 6];
+function checkSign(num) {
+  const res = ((num==0) ? "zero" : ((num>0) ? "positive" : "negetive"));
 
-// Only change code below this line
-let total=0;
-for(let i=0; i<myArr.length; i++){
-  total = total+myArr[i];
+  console.log(res)
 }
-
-console.log(total)
+checkSign(-12);
