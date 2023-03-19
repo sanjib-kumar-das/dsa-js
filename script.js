@@ -1,6 +1,10 @@
-function checkSign(num) {
-  const res = ((num==0) ? "zero" : ((num>0) ? "positive" : "negetive"));
-
-  console.log(res)
+function countup(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const countArray = countup(n - 1);
+    countArray.unshift(n);
+    return countArray;
+  }
 }
-checkSign(-12);
+console.log(countup(5));
