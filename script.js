@@ -1,10 +1,11 @@
-function countup(n) {
-  if (n < 1) {
-    return [];
-  } else {
-    const countArray = countup(n - 1);
-    countArray.unshift(n);
-    return countArray;
-  }
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum < startNum) {
+  return [];
+} else {
+  const numbers = rangeOfNumbers(startNum, endNum - 1);
+  numbers.push(endNum);
+  return numbers;
 }
-console.log(countup(5));
+};
+
+rangeOfNumbers(1,5)
