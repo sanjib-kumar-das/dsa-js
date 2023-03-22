@@ -1,14 +1,8 @@
-function rangeOfNumbers(startNum, endNum) {
-  if (endNum === startNum) {
-    return "Both numbers are equal";
-    
-  } else if (endNum < startNum) {
-      return startNum+" is bigger";
-      
-  } else {
-  return endNum+" is bigger  ";
-  
-}
-};
+const user = { fname: 'John Doe', age: 34 };
 
-rangeOfNumbers(8,5)
+// const myName = user.fname;
+// const myAge = user.age;
+
+const{fname, age} = user;
+
+console.log(fname, age)
