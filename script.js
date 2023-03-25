@@ -1,9 +1,2 @@
-const user = { fname: 'John Doe', age: 34 };
-
-const myName = user.fname;
-const myAge = user.age;
-
-// const{fname, age} = user;
-
-console.log(fname, age)
-// return 0;
+const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+console.log(a, b, c);
